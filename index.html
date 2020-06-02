@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="images/img_band_chicago.jpg">
+                <div class="caption-block">
+                    <h4>Chicago</h4>
+                    <p>Thank You, Chicago!</p>
+                </div>
+            </div>
+      
+        <div class="mySlides">
+            <img src="images/img_band_la.jpg">
+            <div class="caption-block">
+                <h4>Los Angeles</h4>
+                <p>Thank You, Los Angeles!</p>
+            </div>
+        </div>
+      
+        <div class="mySlides">
+            <img src="images/img_band_ny.jpg">
+            <div class="caption-block">
+                <h4>New York</h4>
+                <p>Thank You, New York!</p>
+            </div>
+        </div>
+      
+        <!-- <a class="prev" disabled onclick="plusDivs(-1)">&#10094;</a>
+        <a class="next" onclick="plusDivs(1)">&#10095;</a> -->
+        <button id="prevBtn" disabled class="prev" onclick="plusDivs(-1)">&#10094;</button>
+        <button id="nextBtn" class="next" onclick="plusDivs(1)">&#10095;</button>
+
+        <div class="dotContainer">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
